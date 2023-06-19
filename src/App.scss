@@ -1,0 +1,55 @@
+
+.app {
+  padding: 50px;
+  background-image: url(https://st4.depositphotos.com/15225220/19659/v/450/depositphotos_196593848-stock-illustration-dark-side-space-weapon-abstract.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  .starships-list {
+    display: flex;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.starship-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 200px;
+  background-color: #fff;
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 4px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .star-icon {
+    color: gold;
+    margin-top: 8px;
+  }
+}
